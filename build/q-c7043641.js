@@ -1,0 +1,4 @@
+import{I as s}from"./q-82451e12.js";import{L as i}from"./q-54615ccf.js";import{A as l,N as a,M as e,D as u}from"./q-94ebc968.js";import{p}from"./q-25e4e909.js";import{subtitle as m}from"./q-936e8093.js";const g=()=>{const n=p.sort((t,r)=>t.created.$$date<r.created.$$date?-1:1);return l("article",null,null,[l("div",null,{class:"center"},l("a",null,{href:"/"},"Home",3,null),3,null),l("h1",null,null,"Japan",3,null),a(s,{width:700,height:272,srcSet:`
+          /images/banner_japan_small.jpg 350w,
+          /images/banner_japan.jpg 700w,
+        `,sizes:"(max-width: 688px) 90vw, 688px",[e]:{width:e,height:e,srcSet:e,sizes:e}},3,"Id_0"),l("p",null,null,m,3,null),l("section",null,null,n.map(t=>l("p",null,null,a(i,{prefetch:!0,href:`/blog/japan/${t.slug}`,children:u(t,"title"),[e]:{prefetch:e}},1,"Id_1"),1,t._id)),1,null)],1,"Id_2")};export{g as s_01LfLt1Ml7Y};
